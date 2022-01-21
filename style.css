@@ -1,0 +1,7 @@
+.info-background{
+  background-color:#fceae8 ;
+}
+.btn-warning-color{
+  background-image: linear-gradient(to bottom, rgb(255 88 155) 0%, rgb(255 19 111) 100%);
+  color: white;
+}
