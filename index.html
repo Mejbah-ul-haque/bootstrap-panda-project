@@ -12,8 +12,8 @@
 <body>
   <!-- Header Start -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light">
+      <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,22 +26,22 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#backpack">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link" href="#subscribe">Subscribe</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Image Slider -->
-    <section class="container">
+    <section class="container mt-5">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner border rounded-3">
           <div class="carousel-item active">
               <div class="row bg-info bg-gradient rounded d-flex align-items-center p-5">
                 <div class="col-lg-7">
@@ -126,7 +126,7 @@
       </div>
     </section>
     <!-- Shoes -->
-    <section class="container">
+    <section class="container" id="shoes">
       <h2>Shoes</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -169,7 +169,7 @@
     </section>
 
     <!-- Backpack -->
-    <section class="container my-5">
+    <section class="container my-5" id="backpack">
       <h2>Backpack</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -212,7 +212,7 @@
       </div>
     </section>
     <!-- Subscribe -->
-    <section class="container d-flex justify-content-center align-items-center rounded-3 bg-info" style="height: 300px;">
+    <section class="container d-flex justify-content-center align-items-center rounded-3 bg-info" id="subscribe" style="height: 300px;">
       <div>
         <h1>LET'S STAY IN TOUCH</h1>
       <p>Get updates on sales, specials and more</p>
